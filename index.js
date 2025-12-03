@@ -7,4 +7,4 @@ app.get('/', (req, res) => {
   res.send('Hello from Coolify minimal test!');
 });
 
-app.listen(port, '0.0.0.0', () => console.log(`Server running on port ${port}`));
+app.listen(PORT, HOST, () => console.log(`Server running on ${HOST}:${PORT}`));
